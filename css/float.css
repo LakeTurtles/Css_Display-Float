@@ -1,0 +1,74 @@
+img {
+    width: 500px;
+    height: 400px;
+    float: left;
+}
+
+.main-display {
+    float: left;
+}
+
+.head-links {
+    float:right;
+    justify-content: right;
+    text-align: right;
+    font-size: 2em;
+    margin-top: 20px;
+
+
+}
+
+.return-home {
+    margin-right: 15px;
+    justify-content: right;
+    text-align: right;
+}
+
+
+
+.main-h2 {
+    clear: both;
+}
+
+hr {
+    clear:both;
+}
+
+
+
+
+
+body {
+    width: 98%;
+    background-image: url(https://media.istockphoto.com/id/1470130937/photo/young-plants-growing-in-a-crack-on-a-concrete-footpath-conquering-adversity-concept.webp?b=1&s=170667a&w=0&k=20&c=IRaA17rmaWOJkmjU_KD29jZo4E6ZtG0niRpIXQN17fc=);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+
+p {
+    text-shadow: rgb(199, 161, 9) 10px 0 10px;
+    font-size:1.2em;
+    color: rgb(43, 2, 43);
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    border: 5px solid gold;
+    background-color: rgb(151, 172, 12);
+    
+}
+
+h2 {
+    color :greenyellow;
+    text-shadow: 3px 1px blue;;
+}
+
+a {
+    background-color: #7cd301fb;
+    border: 3px dashed rgb(0, 4, 255);
+}

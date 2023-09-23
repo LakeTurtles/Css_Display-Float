@@ -1,0 +1,5 @@
+display: inline;  ///// Fit as many Elements in the same line. in line 
+
+display: block;  ///// The Element will take up the full width of the page.
+
+display: inline-block;

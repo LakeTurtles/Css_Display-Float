@@ -1,0 +1,165 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.main-display {
+    float: left;
+}
+
+.button-class {
+    clear: both;
+}
+
+hr {
+    clear:both;
+}
+
+.head-links {
+    float:right;
+    text-align: right;
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+.return-home {
+    margin-right: 15px;
+    justify-content: right;
+    text-align: right;
+}
+
+.circle-1 {
+    position: relative;
+    left: 50%;
+    top: 20%;
+    width: 250px;
+    height: 250px;
+    border: 4px solid rgb(25, 25, 206);
+    background-color: #666;
+    border-radius: 50%;
+}
+
+.box1 {
+    outline: 1px solid black;;
+    border: 3px solid gold;
+    height: 300px;
+    width: 400px;
+}
+
+header {
+    background-color: gold;
+    color:navy;
+}
+
+.input-box {
+    background-color: #666;
+    display: block;
+    border: 4px solid  gold;
+}
+
+.input-box2 {
+    display: inline;
+    border: 4px solid gold;
+    background-color: #666;
+}
+
+.input-box3 {
+    display: inline-block;
+    border: 4px solid gold;
+    background-color: #666;
+}
+
+.input-box > input{
+    display: block;
+    width: 400px;
+}
+
+.input-box2 > input {
+    display: inline;
+    width: 400px;
+}
+
+.input-box3 > input {
+    display: inline-block;
+    width: 400px;
+}
+
+
+p {
+    color: white;
+  }
+
+  .block {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-bottom: 10px;
+  }
+
+  .inline {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-right: 10px;
+  }
+
+  .inline-block {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-right: 10px;
+  }
+
+  .input-group {
+    margin-top: 10px;
+  }
+
+  .slider-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .slider-label {
+    margin-right: 10px;
+  }
+
+  .slider {
+    flex: 1;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5px;
+    background-color: #ddd;
+    outline: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #666;
+    cursor: pointer;
+  }
+
+  .slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background-color: #666;
+    cursor: pointer;
+  }
+
+  .red {
+    background-color: red;
+  }
+
+  .green {
+    background-color: green;
+  }
+
+  .blue {
+    background-color: blue;
+  }
